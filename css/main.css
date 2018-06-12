@@ -1117,11 +1117,13 @@ nav.navigation>ul>li>.subMenu li>div a {
     line-height: 1.4;
 }
 .requestQuote {
+    pointer-events: none; 
     float: right;
     display: none;
     margin-top: 19px
 }
 .requestQuote a {
+    pointer-events: none;
     background: url(../images/request-a-quote.gif) left bottom no-repeat;
     color: #fff;
     display: inline-block;
@@ -1131,6 +1133,7 @@ nav.navigation>ul>li>.subMenu li>div a {
     width: 152px
 }
 .requestQuote a:hover {
+    pointer-events: none;
     background: url(../images/request-a-quote.gif) left -2px no-repeat
 }
 .headerPanel.fixedheader {
@@ -1354,6 +1357,7 @@ nav.navigation>ul>li>.subMenu li>div a {
     margin-bottom: 12px
 }
 .viewPortfolio {
+    pointer-events: none;
     background: url(../images/rectangle-button.gif) 0 -15px no-repeat;
     width: 215px;
     height: 52px;
@@ -1364,6 +1368,7 @@ nav.navigation>ul>li>.subMenu li>div a {
     margin-top: 19px
 }
 .viewPortfolio:hover {
+    pointer-events: none;
     background-position: 0 -85px
 }
 .midPanel {
@@ -1491,6 +1496,7 @@ nav.navigation>ul>li>.subMenu li>div a {
 .homeBlogSection .blogList .column h3 a:hover { color: #69c291; }
 .homeBlogSection .blogMore { text-align: center; }
 .homeBlogSection .blogMore .readmoreBtn {
+    pointer-events: none;
     background: rgba(0, 0, 0, 0) url("../images/rectangle-button.gif") no-repeat scroll 0 -15px;
     color: #fff;
     display: inline-block;
@@ -1501,6 +1507,7 @@ nav.navigation>ul>li>.subMenu li>div a {
     width: 215px;
 }
 .homeBlogSection .blogMore .readmoreBtn:hover {
+    pointer-events: none;
     background-position: 0 -85px;
 }
 
@@ -2328,6 +2335,7 @@ footer {
     color: #6ad89b
 }
 .servicesCateBox h2.navbtn {
+    pointer-events: none;
     font-family: gooddogregular;
     font-weight: 400;
     font-size: 33px;
@@ -2336,9 +2344,11 @@ footer {
     position: relative
 }
 .servicesCateBox h2.navbtn:hover {
+    pointer-events: none;
     color: #6ad89b
 }
 .servicesCateBox h2.navbtn::before {
+    pointer-events: none;
     content: "";
     background: url(../images/bg-arrow-img.png) no-repeat;
     width: 27px;
@@ -2349,6 +2359,7 @@ footer {
     top: 0
 }
 .servicesCateBox h2.navbtn.wd {
+    pointer-events: none;
     width: 90px;
     display: inline-block;
     margin-left: 92px;
@@ -2357,25 +2368,30 @@ footer {
     margin-top: 2px
 }
 .servicesCateBox h2.navbtn.wd::before {
+    pointer-events: none;
     top: 25px
 }
 .servicesCateBox h2.navbtn.pt {
+    pointer-events: none;
     width: 150px;
     display: inline-block;
     text-align: right;
     margin: 0 0 10px 62px
 }
 .servicesCateBox h2.navbtn.pt::before {
+    pointer-events: none;
     top: -3px;
     left: -26px;
     transform: rotate(170deg)
 }
 .servicesCateBox h2.navbtn.br {
+    pointer-events: none;
     width: 95px;
     display: inline-block;
     margin: 0 0 10px 32px
 }
 .servicesCateBox h2.navbtn.br::before {
+    pointer-events: none;
     background: url(../images/bg-arrow-img2.png) no-repeat;
     width: 23px;
     height: 25px;
