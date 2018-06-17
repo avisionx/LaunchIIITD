@@ -1,2 +1,0 @@
-# LaunchIIITD
-LaunchIITD | ESYA 2018
