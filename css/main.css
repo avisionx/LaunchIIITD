@@ -66,7 +66,7 @@ a:focus {
 #header_landing{
 	height: 100%;
 	min-height: 600px;
-	background-image: url("../img/qhacksCover16x9.svg");
+	background-image: url("../img/launch16x9.svg");
 	background-size: cover;
 	background-position: center;
 }
@@ -1268,14 +1268,13 @@ h2.header_title {
 @media only screen and (min-width: 300px) and (max-width: 420px){
 	#header_landing{
 		background-size:cover;
-		background-position: 10% 50%;
-		background-image: url("../img/qhacksCover9x16.svg");
+		background-image: url("../img/launch16x9.svg");
 	}
 }
 
 @media only screen and (min-width: 700px) and (max-width: 950px){
 	#header_landing{
-		background-image: url("../img/qhacksCover4x3.svg");
+		background-image: url("../img/launch4x3.svg");
 		background-size:cover;
 		background-position: center;
 	}
@@ -1283,7 +1282,7 @@ h2.header_title {
 
 @media only screen and (min-width: 1250px){
 	#header_landing{
-		background-image: url("../img/qhacksCover4x3.svg");
+		background-image: url("../img/launch4x3.svg");
 		background-size:cover;
 	}
 }
@@ -1291,46 +1290,25 @@ h2.header_title {
 @media only screen and (device-width : 768px) and (device-height : 1024px){
 	#header_landing{
 		background-size:cover;
-		background-image: url("../img/qhacksCover9x16.svg");
+		background-image: url("../img/launch16x9.svg");
 	}
 }
 
-@media only screen and (min-width: 1350px) and (max-width: 1900px){
-	#header_landing{
-		background-image: url("../img/qhacksCover21x9.svg");
-		background-size:cover;
-	}
-}
-
-@media only screen and (min-width: 1900px){
-	#header_landing{
-		background-image: url("../img/qhacksCover21x9.svg");
-		background-size:cover;
-		background-position: center;
-	}
-}
 
 @media only screen and (min-aspect-ratio: 9/16){
 	#header_landing{
 		background-size:cover;
-		background-image: url("../img/qhacksCover9x16.svg");
+		background-image: url("../img/launch16x9.svg");
 	}
 }
 
 @media only screen and (min-aspect-ratio: 4/3){
 	#header_landing{
-		background-image: url("../img/qhacksCover4x3.svg");
+		background-image: url("../img/launch4x3.svg");
 	}
 
 }
 
-@media only screen and (min-aspect-ratio: 21/9){
-	#header_landing{
-		background-image: url("../img/qhacksCover21x9.svg");
-		background-size: cover;
-		background-position: center;
-	}
-}
 /*Reduce sub-title date size on stack*/
 @media (max-width: 500px) {
 #sub_date{
